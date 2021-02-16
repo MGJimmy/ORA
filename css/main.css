@@ -1,0 +1,489 @@
+/************************* TIGI Hair Reborn ******************************/
+*{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;  
+}
+
+body {
+    width: 100%;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif, droid;
+}
+
+
+
+/********************* Start overriding bootstrap ********************/
+.navbar {background-color: #000;  text-transform: uppercase;}
+.navbar-brand {letter-spacing: 2px; font-family: Eczar;}
+.navbar-nav {font-size: 12px;}
+.navbar .dropdown-menu {
+    min-width: 190px;
+    background-color: #000;
+    left: auto;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.navbar .dropdown-menu .dropdown-item {color: #FFF;}
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(112,112,112,0.5);
+    margin-left: 3px;    
+}
+
+/********************* End overriding bootstrap ********************/
+
+
+/********************* Start my style ********************/
+/*----------- Start navbar --------------*/
+
+
+.navbar-brand span {font-size: 10px;}
+
+
+/******** End navbar *********/
+
+/******** Start Page 01 ******/
+#page_01 {
+    width: 100%;
+    min-height: 800px;
+    background: url(../images/page01_cover1.jpg) 50% 0% no-repeat fixed;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#page_01 .p01_cover {
+    width: 100%;
+    min-height: 900px;
+    background: url(../images/page01_cover2.png) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#page_01 .text {
+    width: 50%;
+    margin-top: 100px;
+    color: #FFF;
+}
+
+
+#page_01 .text p,
+#page_01 .text h1 {padding-top: 20px;}
+#page_01 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_01 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_01 .text h1 {text-transform: uppercase;}
+
+#page_01 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_01 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+
+#page_02 {height: 200vh;}
+
+/******** End Page 01 ******/
+
+/******** Start Page 02 ******/
+#page_02 {
+    width: 100%;
+    height: 800px;
+    background: url(../images/page02_cover1.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_02 .p02_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page02_cover2.png) 99% 0% no-repeat fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    
+}
+
+#page_02 .text {
+    width: 50%;
+    margin-top: 300px;
+    color: #FFF;
+}
+
+
+#page_02 .text p,
+#page_02 .text h1 {padding-top: 20px;}
+#page_02 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_02 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_02 .text h1 {text-transform: uppercase;}
+
+#page_02 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_02 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+
+
+/******** End Page 02 ******/
+
+
+/******** Start Page 03 ******/
+#page_03 {
+    width: 100%;
+    height: 800px;
+    background: url(../images/page03_cover1.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_03 .p03_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page03_cover2.png) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#page_03 .text {
+    width: 50%;
+    margin-top: 300px;
+    color: #000;
+}
+
+
+#page_03 .text p,
+#page_03 .text h1 {padding-top: 20px;}
+#page_03 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_03 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_03 .text h1 {text-transform: uppercase;}
+
+#page_03 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_03 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+
+
+/******** End Page 03 ******/
+
+/******** Start Page 04 ******/
+#page_04 {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_04 .p04_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page04_cover2.png) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#page_04 .text {
+    width: 50%;
+    margin-top: 300px;
+    color: #FFF;
+}
+
+
+#page_04 .text p,
+#page_04 .text h1 {padding-top: 20px;}
+#page_04 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_04 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_04 .text h1 {text-transform: uppercase;}
+
+#page_04 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_04 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+
+
+/******** End Page 04 ******/
+
+
+/******** Start Page 05 ******/
+#page_05 {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_05 .p05_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page05_cover2.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#page_05 .text {
+    width: 50%;
+    margin-top: 300px;
+    color: #000;
+}
+
+
+#page_05 .text p,
+#page_05 .text h1 {padding-top: 20px;}
+#page_05 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_05 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_05 .text h1 {text-transform: uppercase;}
+
+#page_05 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_05 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+#page_05 .icons {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 100;
+    color: #FFF;
+}
+
+/******** End Page 05 ******/
+
+
+/******** Start Page 06 ******/
+#page_06 {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_06 .p06_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page06_cover2.png) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+#page_06 .text {
+    width: 50%;
+    margin-top: 300px;
+    color: #FFF;
+}
+
+
+#page_06 .text p,
+#page_06 .text h1 {padding-top: 20px;}
+#page_06 .text p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Eczar;
+}
+#page_06 .text p:nth-child(2) {
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 0;
+}
+
+#page_06 .text h1 {text-transform: uppercase;}
+
+#page_06 .text p:nth-child(4) {width: 50%; font-size: 12px;}
+#page_06 .text p:nth-child(5) {width: 70%; font-size: 12px;}
+
+
+#page_06 .icons {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 100;
+    color: #FFF;
+}
+
+/******** End Page 06 ******/
+
+
+/******** Start Page 03 ******/
+#page_07 {
+    width: 100%;
+    height: 800px;
+    background: url(../images/page03_cover1.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+#page_07 .p07_cover {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/page03_cover2.png) 50% 0% no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#page_07 .p07_cover .row {margin-top: 20%; width: 100%}
+
+#page_07 .p07_cover .row .col-lg-4 {
+    height: 300px;
+    background: #000;
+    overflow: hidden;
+}
+
+#page_07 .row .col-lg-4 ul {
+    width: 150px;
+    color: #FFF;
+    margin-left: 250px;    /********************************************PROBLEM!! width of col is more than the window************************************************/
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#page_07 .row .col-lg-4 ul li {
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#page_07 .row .col-lg-4 ul li:hover {
+    background-color: rgba(112,112,112,0.5);
+    margin-left: 3px;
+}
+
+#page_07 .p07_cover .row .col-lg-8 {
+    height: 300px;
+    background: #CCC;
+    opacity: 0.5;
+    
+}
+
+/******** End Page 07 ******/
+
+/* footer */
+footer
+{
+    padding: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
